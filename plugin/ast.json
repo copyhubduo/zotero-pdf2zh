@@ -1,0 +1,2478 @@
+{
+  "type": "Module",
+  "span": {
+    "start": 31,
+    "end": 2803
+  },
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 31,
+        "end": 102
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 31,
+          "end": 101
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 31,
+            "end": 35
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 36,
+                "end": 75
+              },
+              "value": "extensions.zotero.pdf2zh.new_serverip",
+              "raw": "\"extensions.zotero.pdf2zh.new_serverip\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 77,
+                "end": 100
+              },
+              "value": "http://localhost:8890",
+              "raw": "\"http://localhost:8890\""
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 104,
+        "end": 154
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 104,
+          "end": 153
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 104,
+            "end": 108
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 109,
+                "end": 146
+              },
+              "value": "extensions.zotero.pdf2zh.sourceLang",
+              "raw": "\"extensions.zotero.pdf2zh.sourceLang\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 148,
+                "end": 152
+              },
+              "value": "en",
+              "raw": "\"en\""
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 155,
+        "end": 208
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 155,
+          "end": 207
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 155,
+            "end": 159
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 160,
+                "end": 197
+              },
+              "value": "extensions.zotero.pdf2zh.targetLang",
+              "raw": "\"extensions.zotero.pdf2zh.targetLang\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 199,
+                "end": 206
+              },
+              "value": "zh-CN",
+              "raw": "\"zh-CN\""
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 209,
+        "end": 265
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 209,
+          "end": 264
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 209,
+            "end": 213
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 214,
+                "end": 257
+              },
+              "value": "extensions.zotero.pdf2zh.sourceLangSelect",
+              "raw": "\"extensions.zotero.pdf2zh.sourceLangSelect\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 259,
+                "end": 263
+              },
+              "value": "en",
+              "raw": "\"en\""
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 266,
+        "end": 325
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 266,
+          "end": 324
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 266,
+            "end": 270
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 271,
+                "end": 314
+              },
+              "value": "extensions.zotero.pdf2zh.targetLangSelect",
+              "raw": "\"extensions.zotero.pdf2zh.targetLangSelect\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 316,
+                "end": 323
+              },
+              "value": "zh-CN",
+              "raw": "\"zh-CN\""
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 327,
+        "end": 382
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 327,
+          "end": 381
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 327,
+            "end": 331
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 332,
+                "end": 365
+              },
+              "value": "extensions.zotero.pdf2zh.engine",
+              "raw": "\"extensions.zotero.pdf2zh.engine\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 367,
+                "end": 380
+              },
+              "value": "pdf2zh_next",
+              "raw": "\"pdf2zh_next\""
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 383,
+        "end": 444
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 383,
+          "end": 443
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 383,
+            "end": 387
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 388,
+                "end": 427
+              },
+              "value": "extensions.zotero.pdf2zh.engineSelect",
+              "raw": "\"extensions.zotero.pdf2zh.engineSelect\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 429,
+                "end": 442
+              },
+              "value": "pdf2zh_next",
+              "raw": "\"pdf2zh_next\""
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 446,
+        "end": 495
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 446,
+          "end": 494
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 446,
+            "end": 450
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 451,
+                "end": 485
+              },
+              "value": "extensions.zotero.pdf2zh.service",
+              "raw": "\"extensions.zotero.pdf2zh.service\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 487,
+                "end": 493
+              },
+              "value": "bing",
+              "raw": "\"bing\""
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 496,
+        "end": 551
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 496,
+          "end": 550
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 496,
+            "end": 500
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 501,
+                "end": 541
+              },
+              "value": "extensions.zotero.pdf2zh.serviceSelect",
+              "raw": "\"extensions.zotero.pdf2zh.serviceSelect\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 543,
+                "end": 549
+              },
+              "value": "bing",
+              "raw": "\"bing\""
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 552,
+        "end": 617
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 552,
+          "end": 616
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 552,
+            "end": 556
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 557,
+                "end": 596
+              },
+              "value": "extensions.zotero.pdf2zh.next_service",
+              "raw": "\"extensions.zotero.pdf2zh.next_service\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 598,
+                "end": 615
+              },
+              "value": "siliconflowfree",
+              "raw": "\"siliconflowfree\""
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 618,
+        "end": 689
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 618,
+          "end": 688
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 618,
+            "end": 622
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 623,
+                "end": 668
+              },
+              "value": "extensions.zotero.pdf2zh.next_serviceSelect",
+              "raw": "\"extensions.zotero.pdf2zh.next_serviceSelect\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 670,
+                "end": 687
+              },
+              "value": "siliconflowfree",
+              "raw": "\"siliconflowfree\""
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 691,
+        "end": 741
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 691,
+          "end": 740
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 691,
+            "end": 695
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 696,
+                "end": 736
+              },
+              "value": "extensions.zotero.pdf2zh.skipLastPages",
+              "raw": "\"extensions.zotero.pdf2zh.skipLastPages\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "NumericLiteral",
+              "span": {
+                "start": 738,
+                "end": 739
+              },
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 742,
+        "end": 788
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 742,
+          "end": 787
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 742,
+            "end": 746
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 747,
+                "end": 783
+              },
+              "value": "extensions.zotero.pdf2zh.threadNum",
+              "raw": "\"extensions.zotero.pdf2zh.threadNum\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "NumericLiteral",
+              "span": {
+                "start": 785,
+                "end": 786
+              },
+              "value": 4,
+              "raw": "4"
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 789,
+        "end": 830
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 789,
+          "end": 829
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 789,
+            "end": 793
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 794,
+                "end": 824
+              },
+              "value": "extensions.zotero.pdf2zh.qps",
+              "raw": "\"extensions.zotero.pdf2zh.qps\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "NumericLiteral",
+              "span": {
+                "start": 826,
+                "end": 828
+              },
+              "value": 10,
+              "raw": "10"
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 831,
+        "end": 876
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 831,
+          "end": 875
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 831,
+            "end": 835
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 836,
+                "end": 871
+              },
+              "value": "extensions.zotero.pdf2zh.poolSize",
+              "raw": "\"extensions.zotero.pdf2zh.poolSize\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "NumericLiteral",
+              "span": {
+                "start": 873,
+                "end": 874
+              },
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 877,
+        "end": 923
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 877,
+          "end": 922
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 877,
+            "end": 881
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 882,
+                "end": 915
+              },
+              "value": "extensions.zotero.pdf2zh.rename",
+              "raw": "\"extensions.zotero.pdf2zh.rename\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 917,
+                "end": 921
+              },
+              "value": true
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 934,
+        "end": 990
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 934,
+          "end": 989
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 934,
+            "end": 938
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 939,
+                "end": 981
+              },
+              "value": "extensions.zotero.pdf2zh.skipSubsetFonts",
+              "raw": "\"extensions.zotero.pdf2zh.skipSubsetFonts\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 983,
+                "end": 988
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 991,
+        "end": 1040
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 991,
+          "end": 1039
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 991,
+            "end": 995
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 996,
+                "end": 1031
+              },
+              "value": "extensions.zotero.pdf2zh.babeldoc",
+              "raw": "\"extensions.zotero.pdf2zh.babeldoc\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 1033,
+                "end": 1038
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 1041,
+        "end": 1087
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 1041,
+          "end": 1086
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 1041,
+            "end": 1045
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 1046,
+                "end": 1081
+              },
+              "value": "extensions.zotero.pdf2zh.fontFile",
+              "raw": "\"extensions.zotero.pdf2zh.fontFile\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 1083,
+                "end": 1085
+              },
+              "value": "",
+              "raw": "\"\""
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 1098,
+        "end": 1150
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 1098,
+          "end": 1149
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 1098,
+            "end": 1102
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 1103,
+                "end": 1140
+              },
+              "value": "extensions.zotero.pdf2zh.fontFamily",
+              "raw": "\"extensions.zotero.pdf2zh.fontFamily\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 1142,
+                "end": 1148
+              },
+              "value": "auto",
+              "raw": "\"auto\""
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 1151,
+        "end": 1199
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 1151,
+          "end": 1198
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 1151,
+            "end": 1155
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 1156,
+                "end": 1191
+              },
+              "value": "extensions.zotero.pdf2zh.dualMode",
+              "raw": "\"extensions.zotero.pdf2zh.dualMode\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 1193,
+                "end": 1197
+              },
+              "value": "LR",
+              "raw": "\"LR\""
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 1302,
+        "end": 1353
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 1302,
+          "end": 1352
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 1302,
+            "end": 1306
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 1307,
+                "end": 1344
+              },
+              "value": "extensions.zotero.pdf2zh.transFirst",
+              "raw": "\"extensions.zotero.pdf2zh.transFirst\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 1346,
+                "end": 1351
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 1354,
+        "end": 1398
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 1354,
+          "end": 1397
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 1354,
+            "end": 1358
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 1359,
+                "end": 1389
+              },
+              "value": "extensions.zotero.pdf2zh.ocr",
+              "raw": "\"extensions.zotero.pdf2zh.ocr\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 1391,
+                "end": 1396
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 1399,
+        "end": 1446
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 1399,
+          "end": 1445
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 1399,
+            "end": 1403
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 1404,
+                "end": 1438
+              },
+              "value": "extensions.zotero.pdf2zh.autoOcr",
+              "raw": "\"extensions.zotero.pdf2zh.autoOcr\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 1440,
+                "end": 1444
+              },
+              "value": true
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 1447,
+        "end": 1498
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 1447,
+          "end": 1497
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 1447,
+            "end": 1451
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 1452,
+                "end": 1490
+              },
+              "value": "extensions.zotero.pdf2zh.noWatermark",
+              "raw": "\"extensions.zotero.pdf2zh.noWatermark\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 1492,
+                "end": 1496
+              },
+              "value": true
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 1499,
+        "end": 1552
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 1499,
+          "end": 1551
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 1499,
+            "end": 1503
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 1504,
+                "end": 1543
+              },
+              "value": "extensions.zotero.pdf2zh.saveGlossary",
+              "raw": "\"extensions.zotero.pdf2zh.saveGlossary\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 1545,
+                "end": 1550
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 1553,
+        "end": 1609
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 1553,
+          "end": 1608
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 1553,
+            "end": 1557
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 1558,
+                "end": 1600
+              },
+              "value": "extensions.zotero.pdf2zh.disableGlossary",
+              "raw": "\"extensions.zotero.pdf2zh.disableGlossary\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 1602,
+                "end": 1607
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 1610,
+        "end": 1657
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 1610,
+          "end": 1656
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 1610,
+            "end": 1614
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 1615,
+                "end": 1648
+              },
+              "value": "extensions.zotero.pdf2zh.noDual",
+              "raw": "\"extensions.zotero.pdf2zh.noDual\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 1650,
+                "end": 1655
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 1658,
+        "end": 1705
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 1658,
+          "end": 1704
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 1658,
+            "end": 1662
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 1663,
+                "end": 1696
+              },
+              "value": "extensions.zotero.pdf2zh.noMono",
+              "raw": "\"extensions.zotero.pdf2zh.noMono\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 1698,
+                "end": 1703
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 1706,
+        "end": 1756
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 1706,
+          "end": 1755
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 1706,
+            "end": 1710
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 1711,
+                "end": 1747
+              },
+              "value": "extensions.zotero.pdf2zh.skipClean",
+              "raw": "\"extensions.zotero.pdf2zh.skipClean\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 1749,
+                "end": 1754
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 1757,
+        "end": 1822
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 1757,
+          "end": 1821
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 1757,
+            "end": 1761
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 1762,
+                "end": 1813
+              },
+              "value": "extensions.zotero.pdf2zh.disableRichTextTranslate",
+              "raw": "\"extensions.zotero.pdf2zh.disableRichTextTranslate\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 1815,
+                "end": 1820
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 1823,
+        "end": 1884
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 1823,
+          "end": 1883
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 1823,
+            "end": 1827
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 1828,
+                "end": 1875
+              },
+              "value": "extensions.zotero.pdf2zh.enhanceCompatibility",
+              "raw": "\"extensions.zotero.pdf2zh.enhanceCompatibility\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 1877,
+                "end": 1882
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 1885,
+        "end": 1944
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 1885,
+          "end": 1943
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 1885,
+            "end": 1889
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 1890,
+                "end": 1935
+              },
+              "value": "extensions.zotero.pdf2zh.translateTableText",
+              "raw": "\"extensions.zotero.pdf2zh.translateTableText\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 1937,
+                "end": 1942
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 1945,
+        "end": 2011
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 1945,
+          "end": 2010
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 1945,
+            "end": 1949
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 1950,
+                "end": 2002
+              },
+              "value": "extensions.zotero.pdf2zh.onlyIncludeTranslatedPage",
+              "raw": "\"extensions.zotero.pdf2zh.onlyIncludeTranslatedPage\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 2004,
+                "end": 2009
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 2025,
+        "end": 2069
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 2025,
+          "end": 2068
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 2025,
+            "end": 2029
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 2030,
+                "end": 2061
+              },
+              "value": "extensions.zotero.pdf2zh.mono",
+              "raw": "\"extensions.zotero.pdf2zh.mono\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 2063,
+                "end": 2067
+              },
+              "value": true
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 2070,
+        "end": 2114
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 2070,
+          "end": 2113
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 2070,
+            "end": 2074
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 2075,
+                "end": 2106
+              },
+              "value": "extensions.zotero.pdf2zh.dual",
+              "raw": "\"extensions.zotero.pdf2zh.dual\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 2108,
+                "end": 2112
+              },
+              "value": true
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 2115,
+        "end": 2164
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 2115,
+          "end": 2163
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 2115,
+            "end": 2119
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 2120,
+                "end": 2155
+              },
+              "value": "extensions.zotero.pdf2zh.mono-cut",
+              "raw": "\"extensions.zotero.pdf2zh.mono-cut\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 2157,
+                "end": 2162
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 2165,
+        "end": 2214
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 2165,
+          "end": 2213
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 2165,
+            "end": 2169
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 2170,
+                "end": 2205
+              },
+              "value": "extensions.zotero.pdf2zh.dual-cut",
+              "raw": "\"extensions.zotero.pdf2zh.dual-cut\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 2207,
+                "end": 2212
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 2215,
+        "end": 2268
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 2215,
+          "end": 2267
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 2215,
+            "end": 2219
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 2220,
+                "end": 2259
+              },
+              "value": "extensions.zotero.pdf2zh.crop-compare",
+              "raw": "\"extensions.zotero.pdf2zh.crop-compare\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 2261,
+                "end": 2266
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 2269,
+        "end": 2317
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 2269,
+          "end": 2316
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 2269,
+            "end": 2273
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 2274,
+                "end": 2308
+              },
+              "value": "extensions.zotero.pdf2zh.compare",
+              "raw": "\"extensions.zotero.pdf2zh.compare\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 2310,
+                "end": 2315
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 2336,
+        "end": 2386
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 2336,
+          "end": 2385
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 2336,
+            "end": 2340
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 2341,
+                "end": 2377
+              },
+              "value": "extensions.zotero.pdf2zh.mono-open",
+              "raw": "\"extensions.zotero.pdf2zh.mono-open\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 2379,
+                "end": 2384
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 2387,
+        "end": 2437
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 2387,
+          "end": 2436
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 2387,
+            "end": 2391
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 2392,
+                "end": 2428
+              },
+              "value": "extensions.zotero.pdf2zh.dual-open",
+              "raw": "\"extensions.zotero.pdf2zh.dual-open\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 2430,
+                "end": 2435
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 2438,
+        "end": 2492
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 2438,
+          "end": 2491
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 2438,
+            "end": 2442
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 2443,
+                "end": 2483
+              },
+              "value": "extensions.zotero.pdf2zh.mono-cut-open",
+              "raw": "\"extensions.zotero.pdf2zh.mono-cut-open\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 2485,
+                "end": 2490
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 2493,
+        "end": 2547
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 2493,
+          "end": 2546
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 2493,
+            "end": 2497
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 2498,
+                "end": 2538
+              },
+              "value": "extensions.zotero.pdf2zh.dual-cut-open",
+              "raw": "\"extensions.zotero.pdf2zh.dual-cut-open\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 2540,
+                "end": 2545
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 2548,
+        "end": 2606
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 2548,
+          "end": 2605
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 2548,
+            "end": 2552
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 2553,
+                "end": 2597
+              },
+              "value": "extensions.zotero.pdf2zh.crop-compare-open",
+              "raw": "\"extensions.zotero.pdf2zh.crop-compare-open\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 2599,
+                "end": 2604
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 2607,
+        "end": 2660
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 2607,
+          "end": 2659
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 2607,
+            "end": 2611
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 2612,
+                "end": 2651
+              },
+              "value": "extensions.zotero.pdf2zh.compare-open",
+              "raw": "\"extensions.zotero.pdf2zh.compare-open\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "BooleanLiteral",
+              "span": {
+                "start": 2653,
+                "end": 2658
+              },
+              "value": false
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 2672,
+        "end": 2734
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 2672,
+          "end": 2733
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 2672,
+            "end": 2676
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 2677,
+                "end": 2718
+              },
+              "value": "extensions.zotero.pdf2zh.dialog-service",
+              "raw": "\"extensions.zotero.pdf2zh.dialog-service\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 2720,
+                "end": 2732
+              },
+              "value": "openaliked",
+              "raw": "\"openaliked\""
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "span": {
+        "start": 2735,
+        "end": 2803
+      },
+      "expression": {
+        "type": "CallExpression",
+        "span": {
+          "start": 2735,
+          "end": 2802
+        },
+        "ctxt": 0,
+        "callee": {
+          "type": "Identifier",
+          "span": {
+            "start": 2735,
+            "end": 2739
+          },
+          "ctxt": 1,
+          "value": "pref",
+          "optional": false
+        },
+        "arguments": [
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 2740,
+                "end": 2787
+              },
+              "value": "extensions.zotero.pdf2zh.dialog-serviceSelect",
+              "raw": "\"extensions.zotero.pdf2zh.dialog-serviceSelect\""
+            }
+          },
+          {
+            "spread": null,
+            "expression": {
+              "type": "StringLiteral",
+              "span": {
+                "start": 2789,
+                "end": 2801
+              },
+              "value": "openaliked",
+              "raw": "\"openaliked\""
+            }
+          }
+        ],
+        "typeArguments": null
+      }
+    }
+  ],
+  "interpreter": null
+}
